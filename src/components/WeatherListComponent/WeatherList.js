@@ -32,17 +32,17 @@ const WeatherView = () => {
                         converter(currentWeather.Temperature.Metric.Value)}
                     </p>
                 </div>
-                {favorites.some(({ id }) => id === location.key||location.id) ?
+                {favorites.some(({ key }) => key === location.key) ?
                     <button
                         className="weather-current__btn unfollow-btn" 
                         onClick={() => dispatch(
-                        removeFavorite(location.key, location.cityName))}>
+                        removeFavorite(location.key))}>
                         Unfollow
                     </button> :
                     <button 
                         className="weather-current__btn follow-btn" 
                         onClick={() => dispatch(
-                        addFavorite(location.key, location.cityName))}>
+                        addFavorite({location}))}>
                         Follow
                     </button>
                 }

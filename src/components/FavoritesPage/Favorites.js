@@ -20,6 +20,7 @@ export const Favorites = () => {
 
     useEffect(() => {
         fetchFavorites()
+        // eslint-disable-next-line
     }, []);
 
     const fetchFavorites = async () => {
@@ -28,9 +29,9 @@ export const Favorites = () => {
             const tempFavorites = {};
             //fetch current weather for each location in favorites.
             for await (let favorite of favorites) {
-                const response = await axios.get(`https://dataservice.accuweather.com/currentconditions/v1/${favorite.id}?apikey=${process.env.REACT_APP_API_KEY}&getphotos=true`);
+                const response = await axios.get(`https://dataservice.accuweather.com/currentconditions/v1/${favorite.key}?apikey=${process.env.REACT_APP_API_KEY}&getphotos=true`);
                 if (response.data) {
-                    tempFavorites[favorite.id] = response.data[0];
+                    tempFavorites[favorite.key] = response.data[0];
                 };
             };
             setFavorites(tempFavorites);
@@ -52,35 +53,46 @@ export const Favorites = () => {
         );
     };
 
+
+    const FavoriteCard = ({ favorite }) => {
+
+        return (<>
+
+            <Card
+                className="favorites__item"
+                onClick={() => onFavoriteItemClicked(favorite)}>
+                <Link to="/">
+                    <b>{favorite.cityName}</b>
+                    <p>{favs[favorite.key].WeatherText}</p>
+                    <i>
+                        {isMetric ? `${favs[favorite.key].Temperature.Metric.Value}\xB0C` :
+                            converter(favs[favorite.key].Temperature.Metric.Value)}
+                    </i>
+                    <br />
+                </Link>
+                <button className='btn-primary'
+                    onClick={() => dispatch(removeFavorite(favorite.key))}>
+                    <i className="far fa-heart" />
+                </button>
+            </Card>
+        </>)
+    }
     return (
         <>
             <ResponsiveGBComponent />
-                <h1> Favorite Locations</h1>
+            
+            <span>
+              <i className="far fa-radar"></i>  <h1> Favorite Locations</h1>
+            </span>
             <div className='favorites'>
                 {favorites ? favorites.map((favorite, index) => (
-                    <Card
-                        className="favorites__item"
-                        onClick={() => onFavoriteItemClicked(favorite)}
-                        key={index}>
-                        <Link to="/">
-                        <b>{favorite.name}</b>
-                        <p>{favs[favorite.id].WeatherText}</p>
-                        <i>
-                            {isMetric ? `${favs[favorite.id].Temperature.Metric.Value}\xB0C` :
-                                converter(favs[favorite.id].Temperature.Metric.Value)}
-                        </i>
-                        <br />
-                        </Link>  
-                        <button className='btn-primary'
-                            onClick={() => dispatch(removeFavorite(favorite.id))}>
-                            <i className="far fa-heart"/>
-                        </button>
-                    </Card>
+                    <FavoriteCard favorite={favorite} key={index} />
+
                 ))
                     : <>No Favorites Found.</>}
             </div>
         </>
     );
-};
 
+};
 export default Favorites;

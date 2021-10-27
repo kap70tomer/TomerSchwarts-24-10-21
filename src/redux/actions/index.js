@@ -1,11 +1,11 @@
 
 // Favorites
-export const addFavorite = (id, name) => {
+export const addFavorite = ({location}) => {
     return {
         type: 'ADD_FAVORITE',
         payload: {
-            id: id,
-            name: name
+            key: location.key,
+            cityName: location.cityName
         }
     }
 }

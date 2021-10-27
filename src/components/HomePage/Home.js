@@ -11,8 +11,8 @@ const Home = () => {
     const location = useSelector(state => state.location);
    
     useEffect(() => {
-        if(location && location.name){
-            getLocationKeyByName(location.name);
+        if(location && location.cityName){
+            getLocationKeyByName(location.cityName);
         }
         else{
             navigator.geolocation.getCurrentPosition(
@@ -27,6 +27,7 @@ const Home = () => {
                 });
                 
             }
+            // eslint-disable-next-line
         },[dispatch]);
             
     
