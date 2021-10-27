@@ -269,7 +269,8 @@ main{
 .weather-forecast__list {
   display: flex;
   justify-content: space-between;
-  padding: 1.6rem 0 3.2rem;
+  padding: 1.6rem 0 4.2rem;
+  margin: 0px 3.2rem;
 }
 @media (max-width: 480px) {
   .weather-forecast__list {

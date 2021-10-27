@@ -82,8 +82,9 @@ export const Favorites = () => {
             <ResponsiveGBComponent />
             
             <span>
-              <i className="far fa-radar"></i>  <h1> Favorite Locations</h1>
+            <i class="fas fa-map-marked-alt"></i>  <h1> Favorite Locations</h1>
             </span>
+
             <div className='favorites'>
                 {favorites ? favorites.map((favorite, index) => (
                     <FavoriteCard favorite={favorite} key={index} />
