@@ -1,6 +1,6 @@
-// Desc - access point to the rest of the aplication to interact with the dom elements in the browser. 
-//React Redux includes a <Provider /> component, which makes the Redux store available to the rest of your app
-
+// Desc - uses root as access point to the rest of the aplication to interact with the dom elements in the browser. 
+// React Redux includes a <Provider /> component, which makes the Redux store available to the app.
+// 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from "react-router-dom";
