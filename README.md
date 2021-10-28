@@ -4,6 +4,8 @@ Herolo Assignment react redux weather app
 Deployed using create-react-app,
 uses AccuWeather API services to Display Weather data,
 
+![weather](https://user-images.githubusercontent.com/65711940/139273773-e7f4bc2c-d1ff-49a9-9221-7be7f8934dcb.jpeg)
+
 about the self location of you or any city looked up in the search input.
 users are able to select and save locations to their list of favorite locations, and display them from favorites page on Main view with forcasts of 5 days.
 of course 'unfollow' to remove a location from favorites is an option.
