@@ -1,4 +1,4 @@
-// Desc - access point to the rest of the aplication to interact with the dom elements in the browser.
+// Desc - editable component that wraps the react app.
 // Func - 'require('dotenv').config()' requires the app eviromental vars.
 // DarkMode - state var <Boolean> - determines the style of the app. between 'light' and 'dark' mode when active.
 
