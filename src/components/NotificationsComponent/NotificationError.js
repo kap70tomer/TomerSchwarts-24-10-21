@@ -1,3 +1,7 @@
+//Desc - this component Handels Errors Displaying on view.
+// has pointers to subscribe error changes in the state,
+// and if there are any it will show a red notification with message of the errors that occurred.
+
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Alert } from 'reactstrap';

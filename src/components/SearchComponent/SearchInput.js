@@ -1,3 +1,6 @@
+//Desc - Component that handels search capabilities.
+//Interacts with the api 'on the flight' to get suggested locations that match the text while typed in the input, takes only ENGLISH.
+
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getLocationKeyByName } from '../../redux/actions/location.actions';
@@ -9,7 +12,6 @@ const SearchInput = () => {
     const suggestions = useSelector(state => state.suggestions);
     const dispatch = useDispatch();
 
-    // on Search term changed suggest.
     const handleChange = async(e) => {
         try{
             const search = e.target.value;

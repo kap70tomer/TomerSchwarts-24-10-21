@@ -1,3 +1,7 @@
+// Desc - Helper functions to Load And Save the state to local storage. 
+// Meaning it will last refreshing and closing of the tab in the browser.
+// ** look at Redux-Presist selution.. 
+
 export const loadState = () => {
     try {
         const serializedState = localStorage.getItem('favorites')

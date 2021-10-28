@@ -1,3 +1,7 @@
+//Desc -Favorites View shows places and their current weather. selected by the user.
+//favorites are based on the data in state, and their current weather is based on their current data fetched from the api onLoad. 
+//Pressing on each of the cards navigates you to the main page, showing the location selected there.
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useSelector, useDispatch } from 'react-redux';
@@ -23,9 +27,6 @@ export const Favorites = () => {
         // eslint-disable-next-line
     }, []);
 
-
-    //Should I save in state current weather or fetch onLoad ? saved is realy 'current' as live data...?
-    // on the other hand will work on premise. no http requests. 
     const fetchFavorites = async () => {
         try {
             setFetch(true);
@@ -82,7 +83,7 @@ export const Favorites = () => {
         <>
             <ResponsiveGBComponent />
 
-            <span className="favorites___header"><i class="fas fa-map-marked-alt"></i> <h1> Favorite Locations</h1></span>
+            <span className="favorites___header"><i className="fas fa-map-marked-alt"></i> <h1> Favorite Locations</h1></span>
             <div className='favorites'>
                 {favorites ? favorites.map((favorite, index) => (
                     <FavoriteCard favorite={favorite} key={index} />

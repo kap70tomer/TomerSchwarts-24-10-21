@@ -1,5 +1,5 @@
+// Desc - Function used to convert between Fernhait and Celsiuc.
 export const converter = (min, max) => {
-    // const formula = (num * 9 / 5 + 32).toFixed(2)
     if (max === undefined) {
         return `${(min * 9 / 5 + 32).toFixed(2)}\xB0F`
     } else {

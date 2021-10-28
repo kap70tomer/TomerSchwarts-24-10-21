@@ -1,3 +1,9 @@
+//Desc - Main View of the app. on this view thers input for city search that automaticaly suggests you cities from the api.
+// User can add a location to 'favorites' by clicking on 'follow' <button>. 
+// Display the 5 days of the location weather, based on api data. default location is 'Tel Aviv',
+// unless user allows geolocation services in his browser then his 'self' location is default.
+  
+
 import React, { useEffect } from 'react';
 import ResponsiveGB from '../BackGround/ResponsiveGB';
 import { useSelector, useDispatch } from 'react-redux';

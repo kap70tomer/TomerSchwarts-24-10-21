@@ -1,3 +1,7 @@
+// Desc - handle the html basic stracture of the app.
+// like a 'skeleton' of the page.
+
+
 import React from 'react';
 import AppRouter from '../AppRouter';
 import Header from '../HeaderComponent/Header';

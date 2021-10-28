@@ -1,3 +1,7 @@
+//Desc - Header View holds the app Navigation controls and the App LOGO.
+//3 icons on the right, heart that navigates to favorites also shows the amount of favorites selected.
+// an abjust icon to toggle Dark mode style, and Units converter icon 'C' | 'F' that toggle 'celsiuc' and 'fernhait'. 
+
 import React from 'react';
 import AppLogo from '../../assets/WeatherGIF1.gif';
 import { Link } from 'react-router-dom';

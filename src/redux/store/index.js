@@ -1,3 +1,7 @@
+//Desc- App store holds the app state and allows access and updates.
+// aswell to subscribe to the changes.
+// func create store takes the rootReducers and the applied middleware, and returns the store OBJ.
+
 import rootReducers from '../reducers';
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';

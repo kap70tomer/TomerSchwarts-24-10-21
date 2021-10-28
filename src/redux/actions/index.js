@@ -1,5 +1,5 @@
+// Favorites actions- declare the actions the Favorite reducer will use to mennage the app State by.
 
-// Favorites
 export const addFavorite = ({location}) => {
     return {
         type: 'ADD_FAVORITE',

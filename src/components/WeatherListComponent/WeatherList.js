@@ -1,3 +1,6 @@
+// Desc - this component as part of the Main page displays the current wether and 5 forcasts of a location.
+// buid of two parts, first is current display with todays Data of a location and the 'follow' <button> that provides the 'add to favorite' func.
+// second is the 5 forcasts of the next days weather and temp.
 import React from 'react';
 import moment from 'moment';
 import { useSelector, useDispatch } from 'react-redux';
@@ -18,7 +21,7 @@ const WeatherView = () => {
         <div className="weather-forecast">
             <div className="weather-current__today">
                 <h2 className="weather-current__title">
-                    {location.cityName || location.name}
+                    {location.cityName}
                 </h2>
                 <div className="weather-forecast__current">
                     <p className="weather-forecast__day">
