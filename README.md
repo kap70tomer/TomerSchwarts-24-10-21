@@ -8,6 +8,8 @@ about the self location of you or any city looked up in the search input.
 users are able to select and save locations to their list of favorite locations, and display them from favorites page on Main view with forcasts of 5 days.
 of course 'unfollow' to remove a location from favorites is an option.
 
+![favorites](https://user-images.githubusercontent.com/65711940/139273180-39edd1a1-1dff-474c-afcf-f01eaf3d3268.jpeg)
+
 the app is responsive so you can open it on any screen of any device.
 and it is easy to use, you can allow to use Geo location service to get your current weather .. or you can look outside your window assuming you are next to one =].
 or any location desired, the input will help you find the places youre looking for it has auto correct feture that will suggests you with locations while typing.
