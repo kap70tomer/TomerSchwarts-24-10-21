@@ -2,7 +2,7 @@ import { combineReducers } from 'redux';
 
 import metricReducer from './metric.reducer';
 import darkModeReducer from './darkMode.reducer';
-import loadingReducer from './isLoading.reducer';
+import loadingReducer from './loading.reducer';
 
 import locationReducer from './location.reducer';
 import suggestionsReducer from './suggestions.reducer';

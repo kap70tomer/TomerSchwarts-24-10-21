@@ -23,11 +23,13 @@ export const Favorites = () => {
         // eslint-disable-next-line
     }, []);
 
+
+    //Should I save in state current weather or fetch onLoad ? saved is realy 'current' as live data...?
+    // on the other hand will work on premise. no http requests. 
     const fetchFavorites = async () => {
         try {
             setFetch(true);
             const tempFavorites = {};
-            //fetch current weather for each location in favorites.
             for await (let favorite of favorites) {
                 const response = await axios.get(`https://dataservice.accuweather.com/currentconditions/v1/${favorite.key}?apikey=${process.env.REACT_APP_API_KEY}&getphotos=true`);
                 if (response.data) {
@@ -41,10 +43,9 @@ export const Favorites = () => {
             dispatch({ type: 'SET_ERROR', payload: 'Fatching current weather for favorites Failed ' + e.message });
         };
     };
-    // TODO ----- click on favorite from the list whould show on main Page without trigerring the byGEO effect
+
     const onFavoriteItemClicked = (favorite) => {
         dispatch(setLocation(favorite));
-        // history.push('/');
     }
 
     if (isFetching) {
@@ -80,11 +81,8 @@ export const Favorites = () => {
     return (
         <>
             <ResponsiveGBComponent />
-            
-            <span>
-            <i class="fas fa-map-marked-alt"></i>  <h1> Favorite Locations</h1>
-            </span>
 
+            <span className="favorites___header"><i class="fas fa-map-marked-alt"></i> <h1> Favorite Locations</h1></span>
             <div className='favorites'>
                 {favorites ? favorites.map((favorite, index) => (
                     <FavoriteCard favorite={favorite} key={index} />

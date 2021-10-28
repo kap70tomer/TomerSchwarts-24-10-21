@@ -9,6 +9,7 @@ const Home = () => {
     const dispatch = useDispatch();
     const isLoading = useSelector(state => state.isLoading);
     const location = useSelector(state => state.location);
+    const error = useSelector(state => state.error);
    
     useEffect(() => {
         if(location && location.cityName){
@@ -31,7 +32,7 @@ const Home = () => {
         },[dispatch]);
             
     
-    if (isLoading) return <div className="loading-wrapper"><div className="cloudy"></div></div>
+    if (isLoading || error) return <div className="loading-wrapper"><div className="cloudy"></div></div>
     
     return (
         <>

@@ -99,8 +99,8 @@ main{
 }
 
 .dark {
-  background-color:#060606fa;
-  color: rgb(251, 255, 255 , 90%)
+  background-color:#060606fc;
+  color: rgb(255, 255, 255)
 }
 .container {
   max-width: 117rem;
@@ -217,7 +217,18 @@ main{
 }
 @media (max-width: 480px) {
    .search__input {
-    width: 340px;
+    width: 20rem;
+    margin: auto;
+  }
+  .search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 24rem;
+    margin: auto;
+    top: -50px;
   }
 }
 .search__input:focus {
@@ -269,8 +280,7 @@ main{
 .weather-forecast__list {
   display: flex;
   justify-content: space-between;
-  padding: 1.6rem 0 4.2rem;
-  margin: 0px 3.2rem;
+  padding: 0.1rem 2.2rem;
 }
 @media (max-width: 480px) {
   .weather-forecast__list {
@@ -280,7 +290,7 @@ main{
 }
 .weather-forecast__item {
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
   border-radius: 1.6rem;
   flex-basis: 15%;
@@ -365,11 +375,12 @@ main{
 }
 .favorites__item {
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
   border-radius: 1.6rem;
-  flex-basis: 15%;
-  width: 18rem;
+  flex-basis: 33%;
+  font-size: xx-large;
+  width: 20rem;
 }
 
 .favorites__item:hover {
@@ -415,21 +426,21 @@ main{
 }
 
 .fancy-error-class {
-  background: rgba(249, 6, 6, 0.235);
+  background: rgb(92, 99, 118, 85%);
   background-size: cover;
   background-position: center;
   z-index: 4300;
   border: red 3px solid;
   border-radius: 10px;
   position: absolute;
-  top: 20px;
+  top: 100px;
   left: 15px;
   padding: 10px;
   font-size: larger;
   color: rgb(255, 0, 0);
 }
 .fa-window-close{
-  color: rgb(94, 94, 94);
+  color: rgb(255, 255, 255, 90%);
 }
 /* loading cloud */
 .loading-wrapper {
@@ -484,6 +495,10 @@ main{
   }
 }
 /* weather icons */
+.wi{
+  font-size: xxx-large;
+}
+
 .icon-accu1:before {
   content: "\f00d";
 }
