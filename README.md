@@ -20,9 +20,6 @@ npm run eject
 if you know what you are doing and the consequences of it...
 
 
-
-
-
 ## Herolo Assignment react redux weather app
 Deployed using create-react-app,
 uses AccuWeather API services to Display Weather data,
@@ -43,13 +40,3 @@ and it is easy to use, you can allow to use Geo location service to get your cur
 or any location desired, the input will help you find the places youre looking for it has auto correct feture that will suggests you with locations while typing.
 it has a cool 'Dark mode' that allows the user to abjust contrast. as well as temperature units to display in F' or C'. you will find there two on the header to the right.
 
-
-## commends ##
-
-#npm run start 
-
-runs the app on development at http://localhost:3000
-
-#npm run buid 
-
-runs build for production.
