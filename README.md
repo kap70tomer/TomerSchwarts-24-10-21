@@ -1,6 +1,29 @@
 # TomerSchwarts-24-10-21
 
-Herolo Assignment react redux weather app
+### Installation
+
+Clone this git, then npm install.
+
+Edit the .env file to set your API key:
+
+REACT_APP_API_KEY=[ AccuWeather API Key ]
+
+
+### Available commands
+npm start
+Start the app in development mode on http://localhost:3000.
+
+npm run build
+Build the project for production.
+
+npm run eject
+if you know what you are doing and the consequences of it...
+
+
+
+
+
+## Herolo Assignment react redux weather app
 Deployed using create-react-app,
 uses AccuWeather API services to Display Weather data,
 
@@ -23,8 +46,10 @@ it has a cool 'Dark mode' that allows the user to abjust contrast. as well as te
 
 ## commends ##
 
-npm run start 
-runs the app on development on http://localHost:3000
+#npm run start 
 
-npm run buid 
+runs the app on development at http://localhost:3000
+
+#npm run buid 
+
 runs build for production.
