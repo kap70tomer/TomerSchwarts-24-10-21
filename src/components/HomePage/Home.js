@@ -9,7 +9,7 @@ import ResponsiveGB from '../BackGround/ResponsiveGB';
 import { useSelector, useDispatch } from 'react-redux';
 import { getLocationKeyByGEO, getLocationKeyByName } from '../../redux/actions/location.actions';
 import SearchInput from '../SearchComponent/SearchInput';
-import WeatherView from '../WeatherListComponent/WeatherList';
+import WeatherView from '../WeatherComponent/WeatherView';
 
 const Home = () => {
     const dispatch = useDispatch();
