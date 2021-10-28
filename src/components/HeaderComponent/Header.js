@@ -29,10 +29,10 @@ const Header = () => {
                             </Link>
                         </li>
                         <li>
-                            <button onClick={e => dispatch(toggleDarkMode())}><i className="fas fa-adjust"></i></button>
+                            <button onClick={() => dispatch(toggleDarkMode())}><i className="fas fa-adjust"></i></button>
                         </li>
                         <li>
-                            <button onClick={e => dispatch(convertUnits())}><div className="header__unit-icon">{isMetric ? '\xB0C' : '\xB0F'}</div></button>
+                            <button onClick={() => dispatch(convertUnits())}><div className="header__unit-icon">{isMetric ? '\xB0C' : '\xB0F'}</div></button>
                         </li>
                     </ul>
                 </nav>
