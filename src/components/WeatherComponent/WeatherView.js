@@ -1,5 +1,5 @@
 // Desc - this component as part of the Main page displays the current wether and 5 forcasts of a location.
-// buid of two parts, first is current display with todays Data of a location and the 'follow' <button> that provides the 'add to favorite' func.
+// buid of two parts, first is current display with todays Data of a location and the 'follow' <button> that triger the 'add to favorite' func.
 // second is the 5 forcasts of the next days weather and temp.
 import React from 'react';
 import moment from 'moment';
@@ -17,7 +17,8 @@ const WeatherView = () => {
     const dispatch = useDispatch();
     const isDayTime = currentWeather.IsDayTime ? 'Day' : 'Night';
 
-
+    // Single Forcast View Component.
+    // Takes 'forcast'<object> to display.
     const ForcastView = ({ forecast }) => {
         return (
             <>

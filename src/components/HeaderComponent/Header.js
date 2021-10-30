@@ -1,5 +1,5 @@
 //Desc - Header View holds the app Navigation controls and the App LOGO.
-//3 icons on the right, heart that navigates to favorites also shows the amount of favorites selected.
+// 3 icons on the right, heart that navigates to favorites also shows the amount of favorites selected.
 // an abjust icon to toggle Dark mode style, and Units converter icon 'C' | 'F' that toggle 'celsiuc' and 'fernhait'. 
 
 import React from 'react';
@@ -7,10 +7,18 @@ import AppLogo from '../../assets/WeatherGIF1.gif';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { toggleDarkMode, convertUnits } from '../../redux/actions';
-
+// Header component handle navigation and functionality of style and unites mesures type in the app.
 const Header = () => {
+    //@@ desc - 'favorites'<Function> using select hook to access array of places the user chose, stored in app state.
+    // returns an Array. 
     const favorites = useSelector(state => state.favoritesData);
+    
+    //@@ desc - 'isMatric'<Function> using select hook to acces isMatric<Boolean> in app state.
+    // returns true or false.
     const isMetric = useSelector(state => state.isMetric);
+    
+    //@@desc - 'dispatch'<function>, hook triggers the redux dispatch function.
+    // takes in an action<Action> and call redux to dispatch.
     const dispatch = useDispatch();
 
     return (

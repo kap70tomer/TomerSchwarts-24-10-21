@@ -3,7 +3,6 @@
 // Display the 5 days of the location weather, based on api data. default location is 'Tel Aviv',
 // unless user allows geolocation services in his browser then his 'self' location is default.
   
-
 import React, { useEffect } from 'react';
 import ResponsiveGB from '../BackGround/ResponsiveGB';
 import { useSelector, useDispatch } from 'react-redux';
@@ -12,11 +11,20 @@ import SearchInput from '../SearchComponent/SearchInput';
 import WeatherView from '../WeatherComponent/WeatherView';
 
 const Home = () => {
+    //@@desc - 'dispatch'<function>, hook triggers the redux dispatch function.
+    // takes in an action<Action> and call redux to dispatch.
     const dispatch = useDispatch();
+    //@@ desc - 'isLoading'<Function> using select hook to acces isLoading<Boolean> in app state.
+    // returns true or false.
     const isLoading = useSelector(state => state.isLoading);
+    //@@ desc - 'location'<Function> using select hook to acces location<Object> in app state.
+    // returns object with 'key' and 'cityName'.
     const location = useSelector(state => state.location);
+    //@@ desc - 'error'<Function> using select hook to acces error<String> in app state.
+    // returns String.
     const error = useSelector(state => state.error);
    
+    //@@ desc - on load if location set on state get location, get 'tel aviv' by default, or the users location by geo.
     useEffect(() => {
         if(location && location.cityName){
             getLocationKeyByName(location.cityName);
