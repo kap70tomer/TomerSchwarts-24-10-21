@@ -36,7 +36,7 @@ the app is responsive so you can open it on any screen of any device.
 
 ![responsive](https://user-images.githubusercontent.com/65711940/139274038-93ea97a6-27b4-4a88-b0ac-4695009d4da6.jpeg)
 
-and it is easy to use, you can allow to use Geo location service to get your current weather .. or you can look outside your window assuming you are next to one =].
+and it is easy to use, allow Geo location service to get your current location weather.
 or any location desired, the input will help you find the places youre looking for it has auto correct feture that will suggests you with locations while typing.
 it has a cool 'Dark mode' that allows the user to abjust contrast. as well as temperature units to display in F' or C'. you will find there two on the header to the right.
 
