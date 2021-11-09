@@ -1,6 +1,6 @@
 # TomerSchwarts-24-10-21
 
-### Installation
+## Installation
 
 1.  Clone this git..
 2.  cd [your project dir].
@@ -9,7 +9,7 @@
 should look like:
 REACT_APP_API_KEY = [ AccuWeather API Key ]
 
-### Available commands
+## Available commands
 npm start
 
 Start the app in development mode on http://localhost:3000.
@@ -23,9 +23,9 @@ npm run eject
 If you know what you are doing and the consequences...
 It will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. 
 All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-# Note: this is a one-way operation. Once you eject, you can’t go back!
+### Note: this is a one-way operation. Once you eject, you can’t go back!
 
-## Herolo Assignment react redux weather app
+# Herolo Assignment react redux weather app
 Deployed using create-react-app, App Interacts with AccuWeather API to Display Current Weather details,
 
 ![weather](https://user-images.githubusercontent.com/65711940/139273773-e7f4bc2c-d1ff-49a9-9221-7be7f8934dcb.jpeg)
