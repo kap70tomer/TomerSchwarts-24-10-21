@@ -2,12 +2,12 @@
 
 ### Installation
 
-Clone this git, then npm install.
-
-Edit the .env file to set your API key:
-
-REACT_APP_API_KEY=[ AccuWeather API Key ]
-
+1.  Clone this git..
+2.  cd [your project dir].
+3.  run npm install.
+4.  Edit the .env file to set your API key.
+should look like:
+REACT_APP_API_KEY = [ AccuWeather API Key ]
 
 ### Available commands
 npm start
@@ -17,26 +17,30 @@ npm run build
 Build the project for production.
 
 npm run eject
-if you know what you are doing and the consequences of it...
-
+If you know what you are doing and the consequences...
+It will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. 
+All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Note: this is a one-way operation. Once you eject, you can’t go back!
 
 ## Herolo Assignment react redux weather app
-Deployed using create-react-app,
-uses AccuWeather API services to Display Weather data,
+Deployed using create-react-app, App Interacts with AccuWeather API to Display Current Weather details,
 
 ![weather](https://user-images.githubusercontent.com/65711940/139273773-e7f4bc2c-d1ff-49a9-9221-7be7f8934dcb.jpeg)
 
-about the self location of you or any city looked up in the search input.
-users are able to select and save locations to their list of favorite locations, and display them from favorites page on Main view with forcasts of 5 days.
-of course 'unfollow' to remove a location from favorites is an option.
+Of a location, Can be your device location or any city looked up in the search input.
+Select and save your list of favorite locations.
+Display that List on FavoritesPage, 
+By clicking on a favorite card redirects to 'WeatherView' main and detailed component, with forcasts of 5 days, 
+And Button<'heart' <3 > to remove a location from favorites.
 
 ![favorites](https://user-images.githubusercontent.com/65711940/139273180-39edd1a1-1dff-474c-afcf-f01eaf3d3268.jpeg)
 
-the app is responsive so you can open it on any screen of any device. 
+The app style is responsive and scales size, you can open it on any screen of any device. 
 
 ![responsive](https://user-images.githubusercontent.com/65711940/139274038-93ea97a6-27b4-4a88-b0ac-4695009d4da6.jpeg)
 
-and it is easy to use, allow Geo location service to get your current location weather.
-or any location desired, the input will help you find the places youre looking for it has auto correct feture that will suggests you with locations while typing.
-it has a cool 'Dark mode' that allows the user to abjust contrast. as well as temperature units to display in F' or C'. you will find there two on the header to the right.
+Easy to use, Allow Geo location service to get your current location.
+or Type in the search bar a city name, The 'SearchInput' component will help you find the places youre looking for it has auto correct feture that will suggests you with locations while typing fetched from the API, based on the text entered in the UI.
+Check the 'Dark mode' Button at the top, that abjusts contrast to all the APP layout. 
+As well as 'Units' Button, That toggles between displaying temperatures in F' or C'.
 
