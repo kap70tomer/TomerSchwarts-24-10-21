@@ -11,12 +11,15 @@ REACT_APP_API_KEY = [ AccuWeather API Key ]
 
 ### Available commands
 npm start
+
 Start the app in development mode on http://localhost:3000.
 
 npm run build
+
 Build the project for production.
 
 npm run eject
+
 If you know what you are doing and the consequences...
 It will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. 
 All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
