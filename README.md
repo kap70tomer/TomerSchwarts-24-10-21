@@ -4,7 +4,7 @@
 
 1.  Clone this git..
 2.  cd [your project dir].
-3.  run npm install.
+3.  run npm i.
 4.  Edit the .env file to set your API key.
 should look like:
 REACT_APP_API_KEY = [ AccuWeather API Key ]
