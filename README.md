@@ -46,6 +46,7 @@ By clicking on a favorite card the app redirects to 'WeatherView' the main view,
 Press the <'heart' <3 > button to remove a location from your favorites.
 
 ![responsive](https://user-images.githubusercontent.com/65711940/139274038-93ea97a6-27b4-4a88-b0ac-4695009d4da6.jpeg)
+Designed for a unified experience across All platforms.
 
 ## features
 Easy to use, allow (Geo-)'location service' to get your current location.
