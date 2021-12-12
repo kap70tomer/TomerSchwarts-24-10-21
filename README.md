@@ -2,6 +2,8 @@
 
 Deployed using create-react-app,
 Weather app boasts a gorgeous interface that is both informative and striking.
+Look up places to get their weather conditions, the app suggests options based on type in text.
+Save places to your favorites.
 
 The app displays images of your location with matching time of day and weather conditions, with the option
 to view detailed five-day forecasts.
@@ -58,15 +60,16 @@ Press the <'heart' <3 > button to remove a location from your favorites.
 Designed for a unified experience across All platforms.
 
 ## features
-Easy to use, allow (Geo-)'location service' to get your current location.
-or Type in the main view 'search bar', a city name.
 
+Easy to use, 
+Allow 'location service', if you want to get your current Geo-location by co-ords.
+
+Type in the main view 'search bar', a city name.
 The 'SearchInput' component will help you find the places youre looking for,
-
 it has auto correct feture that will suggests you with locations while typing fetched from the API, the list of 'suggested' is based on the text entered in the UI.
 
 Check the 'Dark mode' Button at the navigation bar, 
-that abjusts contrast to all the APP layout. 
+that abjusts contrast to all the app's layout. 
 
 Navigate to Favorites View can be done by clicking on the heard icon on the navigation bar.
 As well as 'Units' Button, That toggles between displaying temperatures in F' or C'.
