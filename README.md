@@ -12,11 +12,11 @@ with the option to view detailed five-day forecasts.
 
 The app is free, everyday app and it's clean, concise presentation makes it an eminently user-friendly.
 
-*Deployed using create-react-app.
-
 ## How to run the app 
 1.  Either fork or download the app and open the directory in the cli.
 2.  Install all dependencies using the 'npm i' command.
+![weatherDep](https://user-images.githubusercontent.com/65711940/145713357-72b74209-b38e-4afc-88cf-1081c0a6f07e.jpeg)
+
 3.  Edit the .env file to set your API key. 
     
     should look like:
@@ -28,7 +28,7 @@ The app is free, everyday app and it's clean, concise presentation makes it an e
 
 5.  Go to http://localhost:3000/ in your browser and enjoy.
 
-
+*Deployed using create-react-app.
 ## Available commands
 'npm run'
 
@@ -63,6 +63,7 @@ Abjusts contrast to the app's layout.
 
 Navigate to Favorites View can be done by clicking on the heart icon on the navigation bar.
 As well as 'Units' Button, That toggles between temperatures units (F' or C').
+
 
 ## Users Stories
 - A user can look up locations.
