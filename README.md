@@ -14,10 +14,9 @@ The app is free, everyday app and it's clean, concise presentation makes it an e
 ## How to run the app 
 1.  Either fork or download the app and open the directory in the cli.
 2.  Install all dependencies using the 'npm i' command.
-3.  Edit the .env file to set your API key.  
-    should look like:
-    REACT_APP_API_KEY = [ AccuWeather API Key ].
-    if you dont have a key, visit https://developer.accuweather.com/ to get yours for free.
+3.  Edit the .env file to set your API key. should look like:
+    REACT_APP_API_KEY = [ AccuWeather API Key ].  
+    **if you dont have a key, visit https://developer.accuweather.com/ to get yours for free.
 4.  Start the web server using the 'npm run' command. The app will be served at http://localhost:3000/
 5.  Go to http://localhost:3000/ in your browser and enjoy.
 
