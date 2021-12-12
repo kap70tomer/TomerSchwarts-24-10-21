@@ -71,7 +71,7 @@ As well as 'Units' Button, That toggles between temperatures units (F' or C').
 - A user can choose units of temperature. Fahrenheit (°F) or Celsius (°C).
 - A user can navigate to 'Main' and 'Favorites' views.
 
-# UI
+# UI - preview
 ### Main page
 ![weather](https://user-images.githubusercontent.com/65711940/139273773-e7f4bc2c-d1ff-49a9-9221-7be7f8934dcb.jpeg)
 Display Current Weather details as well as 5days-forcasts of your location.
