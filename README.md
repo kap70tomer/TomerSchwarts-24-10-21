@@ -9,6 +9,8 @@ with the option to view detailed five-day forecasts.
 
 The app is free, everyday app and it's clean, concise presentation makes it an eminently user-friendly.
 
+*Deployed using create-react-app.
+
 ## How to run the app 
 1.  Either fork or download the app and open the directory in the cli.
 2.  Install all dependencies using the 'npm i' command.
@@ -18,22 +20,26 @@ The app is free, everyday app and it's clean, concise presentation makes it an e
 4.  Start the web server using the 'npm run' command. The app will be served at http://localhost:3000/
 5.  Go to http://localhost:3000/ in your browser and enjoy.
 
+
 ## Available commands
-npm start
+'npm run'
+
 Start the app in development mode on http://localhost:3000.
 
-npm run build
+'npm run build'
+
 Build the project for production.
 
-npm run eject
-If you know what you are doing and the consequences...
+'npm run eject'
+
 It will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. 
 
-All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them.
+All of the commands except eject will still work, 
+but they will point to the copied scripts so you can tweak them.
+
 At this point you’re on your own.
 ### Note: this is a one-way operation. Once you eject, you can’t go back!
 
-Deployed using create-react-app.
 
 ![weather](https://user-images.githubusercontent.com/65711940/139273773-e7f4bc2c-d1ff-49a9-9221-7be7f8934dcb.jpeg)
 The app Interacts with AccuWeather API to Display Current Weather details
