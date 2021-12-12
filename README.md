@@ -15,7 +15,7 @@ The app is free, everyday app and it's clean, concise presentation makes it an e
 3.  Edit the .env file to set your API key.  
     should look like:
     REACT_APP_API_KEY = [ AccuWeather API Key ].
-4.  start the web server using the 'npm run' command. The app will be served at http://localhost:3000/
+4.  Start the web server using the 'npm run' command. The app will be served at http://localhost:3000/
 5.  Go to http://localhost:3000/ in your browser and enjoy.
 
 ## Available commands
