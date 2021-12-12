@@ -54,8 +54,8 @@ Allow 'location service', if you want to get your current Geo-location by co-ord
 
 Type in the main view 'search bar', a city name.
 The 'SearchInput' component will help you find the places youre looking for,
-auto correct feture will suggests you with locations while typing,
-The list of 'suggested' is based on the text entered in the UI fetched from the API.
+auto correct feture will suggest locations while typing,
+*The list of 'suggested' is based on the text entered in the UI fetched from the API.
 
 Check the 'Dark mode' Button at the top of the page on the navigation bar, 
 Abjusts contrast to the app's layout. 
