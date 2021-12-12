@@ -15,7 +15,10 @@ The app is free, everyday app and it's clean, concise presentation makes it an e
 ## How to run the app 
 1.  Either fork or download the app and open the directory in the cli.
 2.  Install all dependencies using the 'npm i' command.
+  
+
 ![weatherDep](https://user-images.githubusercontent.com/65711940/145713357-72b74209-b38e-4afc-88cf-1081c0a6f07e.jpeg)
+
 
 3.  Edit the .env file to set your API key. 
     
