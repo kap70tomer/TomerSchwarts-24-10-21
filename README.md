@@ -40,7 +40,7 @@ but they will point to the copied scripts so you can tweak them.
 At this point you’re on your own.
 ### Note: this is a one-way operation. Once you eject, you can’t go back!
 
-
+# UI
 ![weather](https://user-images.githubusercontent.com/65711940/139273773-e7f4bc2c-d1ff-49a9-9221-7be7f8934dcb.jpeg)
 The app Interacts with AccuWeather API to Display Current Weather details
 Of a location of the user choice, Can be your device location if 'Location Service' is allowed or any city looked up in the search input.
