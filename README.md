@@ -40,6 +40,23 @@ but they will point to the copied scripts so you can tweak them.
 At this point you’re on your own.
 ### Note: this is a one-way operation. Once you eject, you can’t go back!
 
+## How to use & features
+
+Easy to use, 
+Allow 'location service', if you want to get your current Geo-location by co-ords.
+
+Type in the main view 'search bar', a city name.
+The 'SearchInput' component will help you find the places youre looking for,
+it has auto correct feture that will suggests you with locations while typing fetched from the API, the list of 'suggested' is based on the text entered in the UI.
+
+Check the 'Dark mode' Button at the navigation bar, 
+that abjusts contrast to all the app's layout. 
+
+Navigate to Favorites View can be done by clicking on the heard icon on the navigation bar.
+As well as 'Units' Button, That toggles between displaying temperatures in F' or C'.
+
+
+
 # UI
 ![weather](https://user-images.githubusercontent.com/65711940/139273773-e7f4bc2c-d1ff-49a9-9221-7be7f8934dcb.jpeg)
 The app Interacts with AccuWeather API to Display Current Weather details
@@ -58,19 +75,4 @@ Press the <'heart' <3 > button to remove a location from your favorites.
 ![responsive](https://user-images.githubusercontent.com/65711940/139274038-93ea97a6-27b4-4a88-b0ac-4695009d4da6.jpeg)
 
 Designed for a unified experience across All platforms.
-
-## features
-
-Easy to use, 
-Allow 'location service', if you want to get your current Geo-location by co-ords.
-
-Type in the main view 'search bar', a city name.
-The 'SearchInput' component will help you find the places youre looking for,
-it has auto correct feture that will suggests you with locations while typing fetched from the API, the list of 'suggested' is based on the text entered in the UI.
-
-Check the 'Dark mode' Button at the navigation bar, 
-that abjusts contrast to all the app's layout. 
-
-Navigate to Favorites View can be done by clicking on the heard icon on the navigation bar.
-As well as 'Units' Button, That toggles between displaying temperatures in F' or C'.
 
