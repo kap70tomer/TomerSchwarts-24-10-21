@@ -63,17 +63,13 @@ As well as 'Units' Button, That toggles between displaying temperatures in F' or
 
 # UI
 ![weather](https://user-images.githubusercontent.com/65711940/139273773-e7f4bc2c-d1ff-49a9-9221-7be7f8934dcb.jpeg)
-The app Interacts with AccuWeather API to Display Current Weather details
-Of a location of the user choice, Can be your device location if 'Location Service' is allowed or any city looked up in the search input.
-Select and save places to favorite locations list.
+The app Interacts with AccuWeather API to Display Current Weather details as well as 5days-forcasts of your location, on the main Page.
 
 ![favorites](https://user-images.githubusercontent.com/65711940/139273180-39edd1a1-1dff-474c-afcf-f01eaf3d3268.jpeg)
-List of favorites places View, where you can accsess saved locations,
+Favorites places View, 
+where you can accsess saved locations,
 Each favorite has a card view, 
-
-By clicking on a favorite card the app redirects to 'WeatherView' the main view,
-with forcasts of 5 days as well as the current Weather details of the selected place, 
-
+By clicking on a favorite card the app redirects to 'WeatherView' the main view, 
 Press the <'heart' <3 > button to remove a location from your favorites.
 
 ![responsive](https://user-images.githubusercontent.com/65711940/139274038-93ea97a6-27b4-4a88-b0ac-4695009d4da6.jpeg)
