@@ -41,8 +41,7 @@ At this point you’re on your own.
 ### Note: this is a one-way operation. Once you eject, you can’t go back!
 
 ## How to use & features
-
-Easy to use, 
+ 
 Allow 'location service', if you want to get your current Geo-location by co-ords.
 
 Type in the main view 'search bar', a city name.
@@ -55,7 +54,12 @@ that abjusts contrast to all the app's layout.
 Navigate to Favorites View can be done by clicking on the heard icon on the navigation bar.
 As well as 'Units' Button, That toggles between displaying temperatures in F' or C'.
 
-
+## Users Stories
+- A user can look up locations.
+- A user can save/remove favorites.
+- A user can ubjust the app's theme.
+- A user can choose units of temperature. Fahrenheit (°F) or Celsius (°C).
+- A user can navigate to 'Main' and 'Favorites' views.
 
 # UI
 ![weather](https://user-images.githubusercontent.com/65711940/139273773-e7f4bc2c-d1ff-49a9-9221-7be7f8934dcb.jpeg)
