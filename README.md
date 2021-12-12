@@ -1,19 +1,20 @@
 # WeatherApp 
 Weather app boasts a gorgeous interface that is both informative and striking.
-Look up places to get their weather conditions, the app suggests options based on type in text.
+Look up places to get their weather conditions,
+The app suggests options based on type in text.
 Save places to your favorites.
 
-The app displays images of your location with matching time of day and weather conditions, with the option
-to view detailed five-day forecasts.
+The app displays images of your location with matching time of day and weather conditions, 
+with the option to view detailed five-day forecasts.
 
 The app is free, everyday app and it's clean, concise presentation makes it an eminently user-friendly.
 
 ## How to run the app 
-1.  Either fork or download the app and open the directory in the Cli.
+1.  Either fork or download the app and open the directory in the cli.
 2.  Install all dependencies using the 'npm i' command.
-3.  *Edit the .env file to set your API key.  
-*should look like:
-REACT_APP_API_KEY = [ AccuWeather API Key ]
+3.  Edit the .env file to set your API key.  
+    should look like:
+    REACT_APP_API_KEY = [ AccuWeather API Key ].
 4.  start the web server using the 'npm run' command. The app will be served at http://localhost:3000/
 5.  Go to http://localhost:3000/ in your browser and enjoy.
 
