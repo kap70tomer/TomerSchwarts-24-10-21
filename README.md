@@ -75,8 +75,8 @@ As well as 'Units' Button, That toggles between temperatures units (F' or C').
 ### Main page
 ![weather](https://user-images.githubusercontent.com/65711940/139273773-e7f4bc2c-d1ff-49a9-9221-7be7f8934dcb.jpeg)
 Display Current Weather details as well as 5days-forcasts of your location.
-Search Bar component at the center of the page allows typing for look up.
-Vavigation and View Abjustments icons can be found on nav-bar at the top.
+Search Bar component at the center of the page, type in for look up.
+Navigation and View Abjustments icons can be found on the nav-bar at the top.
 
 ### Favorites page
 ![favorites](https://user-images.githubusercontent.com/65711940/139273180-39edd1a1-1dff-474c-afcf-f01eaf3d3268.jpeg)
