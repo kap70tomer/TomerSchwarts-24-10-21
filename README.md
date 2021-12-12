@@ -71,10 +71,11 @@ As well as 'Units' Button, That toggles between temperatures units (F' or C').
 - A user can navigate to 'Main' and 'Favorites' views.
 
 # UI
+### Main page
 ![weather](https://user-images.githubusercontent.com/65711940/139273773-e7f4bc2c-d1ff-49a9-9221-7be7f8934dcb.jpeg)
 The app Interacts with AccuWeather API to Display Current Weather details 
 as well as 5days-forcasts of your location, on the main Page.
-
+### Favorites page
 ![favorites](https://user-images.githubusercontent.com/65711940/139273180-39edd1a1-1dff-474c-afcf-f01eaf3d3268.jpeg)
 Favorites places View, 
 Where you can accsess saved locations, Each favorite has a card view, 
@@ -82,7 +83,7 @@ Where you can accsess saved locations, Each favorite has a card view,
 By clicking on a favorite card the app redirects to 'WeatherView' the main view, 
 
 Press the <'heart' <3 > button to remove a location from your favorites.
-
+### Main page - small device view
 ![responsive](https://user-images.githubusercontent.com/65711940/139274038-93ea97a6-27b4-4a88-b0ac-4695009d4da6.jpeg)
 
 Designed for a unified experience across All platforms.
